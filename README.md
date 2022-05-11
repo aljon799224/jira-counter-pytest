@@ -2,7 +2,7 @@
 Count all of the pytest marks.
 
 Install using:
-pip install -r requirments.txt
+pip install -r requirements.txt
 
 Usage
 Run this command to count all of the pytest-markers:
