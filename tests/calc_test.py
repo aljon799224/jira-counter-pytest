@@ -25,4 +25,5 @@ class TestCalculator:
     @pytest.mark.ID_46
     def test_div(self):
         assert div(10, 5) == 2
+        
 

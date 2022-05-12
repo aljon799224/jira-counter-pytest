@@ -6,8 +6,9 @@ def add_words(word1, word2):
 def to_upperscase(word):
     return word.upper()
 
-def to_lowercase(word):
-    return word.lower()
+def add_and_sub(a, b):
+    return (a + b) - b
+
 
 
 @pytest.mark.ID_45
@@ -21,6 +22,7 @@ def test_to_uppercase():
     assert to_upperscase("Aljon") == "ALJON"
     
 @pytest.mark.ID_46
-def test_to_lowercase():
-    assert to_lowercase("ALJON") == "aljon"
+def test_add_and_sub():
+    assert add_and_sub(10, 2) == 10
+    
     

@@ -20,4 +20,6 @@ class TestComparison:
     @pytest.mark.ID_48
     def test_is_equal(self):
         assert is_equal(5, 5) == True
+        
+        
     
